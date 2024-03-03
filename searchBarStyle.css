@@ -1,0 +1,58 @@
+
+.searchbar {
+    background-color:white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+}
+
+.searchbarLeft {
+    display: flex;
+    align-items: center;
+}
+
+.searchbarLeft > button {
+    background-color: white;
+    border: white;
+    margin-left: 5%;
+    margin-right: 3.5%;
+}
+
+.searchbarLeft > button > svg {
+    height: 3vh;
+    width: 3vh;
+}
+
+.searchbarLeft > input {
+    background-color: lightgrey;
+    border: 1px solid lightgray;
+    border-radius: 1.5vh;
+    height: 3vh;
+    width: 60%;
+    padding-left: 2%;
+    font-size: 1.3rem;
+}
+
+.searchbarRight {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 12%;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.searchbarRight > svg {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 5%;
+}
+
+.searchbarRight > img {
+    height: 4vh;
+    width: 4vh;
+    margin-right: 7%;
+}
