@@ -1,0 +1,72 @@
+
+.sidebar {
+    background-color:#0ea5e9;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-row-end:5;
+    display: grid;
+    grid-template-rows: 8vh 40vh 20vh;
+}
+
+.sideTop {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.sideTop > svg {
+    padding-left: 2vh;
+    padding-right: 1vh;
+    height: 5vh;
+    width: 5vh;
+    fill: white;
+}
+
+.sideMiddle, .sideBottom {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+
+.sideMiddle > div,
+.sideBottom > div {
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.sideMiddle > div > svg,
+.sideBottom > div > svg {
+    fill: white;
+    padding-left: 3vh;
+    padding-right: 2vh;
+    height: 3vh;
+    width: 3vh;
+}
+
+.searchbar {
+    background-color: antiquewhite;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.navbar {
+    background-color: azure;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.projectboard {
+    background-color: beige;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.announcements {
+    background-color: blanchedalmond;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

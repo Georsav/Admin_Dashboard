@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 79vw;
+    margin:auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 16vw 46vw 17vw;
+    grid-template-rows: 8vh 12vh 40vh 40vh;
+}
