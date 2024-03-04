@@ -56,3 +56,55 @@
     width: 4vh;
     margin-right: 7%;
 }
+
+.navbar {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 12% 38% 50%;
+}
+.navbarLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLeft > div > img {
+    height: 4vh;
+    width: 4vh;
+}
+
+.navbarCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#hi {
+    font-weight: bold;
+}
+
+#morgan {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.navbar button {
+    background-color: #0ea5e9;
+    width: 15%;
+    height: 2.8rem;
+    border: 0px;
+    border-radius: 1.25rem;
+    margin-left:5%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+ .navbarRight {
+    padding-right: 8%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+ }

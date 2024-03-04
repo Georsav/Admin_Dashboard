@@ -1,0 +1,33 @@
+.projectboard {
+    background-color: lightgrey;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding-left: 4%;
+}
+
+.board {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh;
+    gap: 5%;
+}
+
+.boardItem {
+    background-color: aliceblue;
+    border-radius: 4%;
+    padding-left: 5%;
+    padding-right: 2%;
+    border-left: 0.5vw solid rgb(208, 174, 110);
+}
+
+.boardItem svg {
+    height: 5.5%;
+    width: 5.5%;
+    margin-left: 9%;
+}
+.boardItemIcons {
+    display: flex;
+    justify-content: right;
+    padding-right: 2%;
+}

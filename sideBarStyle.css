@@ -47,24 +47,6 @@
     width: 3vh;
 }
 
-.searchbar {
-    background-color: antiquewhite;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.navbar {
-    background-color: azure;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.projectboard {
-    background-color: beige;
-    grid-row-start: 3;
-    grid-row-end: 5;
-}
-
 .announcements {
     background-color: blanchedalmond;
     grid-row-start: 3;
