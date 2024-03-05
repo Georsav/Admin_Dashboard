@@ -32,7 +32,7 @@
     height: 3vh;
     width: 60%;
     padding-left: 2%;
-    font-size: 1.3rem;
+    font-size: 0.85vw;
 }
 
 .searchbarRight {
@@ -40,7 +40,7 @@
     justify-content: right;
     align-items: center;
     padding-right: 12%;
-    font-size: 1.3rem;
+    font-size: 0.85vw;
     font-weight: bold;
 
 }
@@ -87,7 +87,7 @@
 }
 
 #morgan {
-    font-size: 1.9rem;
+    font-size: 1.25vw;
     font-weight: bold;
 }
 
@@ -100,7 +100,7 @@
     margin-left:5%;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 0.9vw;
 }
  .navbarRight {
     padding-right: 8%;

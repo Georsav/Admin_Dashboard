@@ -2,7 +2,7 @@
 .sidebar {
     background-color:#0ea5e9;
     color: white;
-    font-size: 2.4rem;
+    font-size: 1.6vw;
     font-weight: bold;
     grid-row-start: 1;
     grid-row-end:5;
@@ -28,7 +28,7 @@
     padding-top: 6vh;
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 1.2vw;
 }
 
 .sideMiddle > div,
@@ -45,10 +45,4 @@
     padding-right: 2vh;
     height: 3vh;
     width: 3vh;
-}
-
-.announcements {
-    background-color: blanchedalmond;
-    grid-row-start: 3;
-    grid-row-end: 4;
 }

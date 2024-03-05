@@ -14,11 +14,17 @@
 }
 
 .boardItem {
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 4%;
     padding-left: 5%;
     padding-right: 2%;
     border-left: 0.5vw solid rgb(208, 174, 110);
+}
+
+.boardItem > p {
+    overflow:hidden;
+    height: 45%;
+    padding-top: -6%;
 }
 
 .boardItem svg {

@@ -1,0 +1,60 @@
+.announcements {
+    background-color: lightgray;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.announcementsBoard {
+    height: 30vh;
+    background-color: white;
+    border-radius: 5%;
+    padding: 1vw 1vw 1vw 1vw;
+    margin-right: 12%;
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    gap: 2%;
+    overflow: hidden;
+} 
+
+.announcementsBoard > div > p {
+    margin-top: -1.5vh;
+
+}
+
+.trending {
+    background-color: lightgray;
+}
+
+.trendsBoard {
+    padding-top:2%;
+    margin-right: 12%;
+    border-radius: 5%;
+    background-color: white;
+    height: 26vh;
+    display: grid;
+    grid-template-rows: repeat(4, 5vh);
+    gap: 1vh;
+}
+
+.trend > img {
+    height: 3rem;
+    width: 3rem;
+    flex-grow: 0.2fr;
+    margin-right: 1vw;
+    padding-left: 1vw;
+}
+
+.trend > div {
+    flex-grow: 0.8fr;
+    display: flex;
+    flex-direction: column;
+}
+
+.trend {
+    display: flex;
+    align-items: center;
+}
+
+.trend > div > p {
+    margin-top: -1.5vh;
+}
